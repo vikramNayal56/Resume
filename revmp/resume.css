@@ -67,18 +67,18 @@ body {
   color: #ccc;
 }
 
-.skill-group {
+.skill-section {
   font-size: 13px;
   color: #fff;
   margin: 12px 0 6px;
   font-weight: 600;
 }
 
-.skill-list {
+.skills {
   list-style: none;
 }
 
-.skill-list li {
+.skills li {
   font-size: 12.5px;
   padding-left: 16px;
   position: relative;
@@ -87,7 +87,7 @@ body {
   color: #bbb;
 }
 
-.skill-list li::before {
+.skills li::before {
   content: "♦";
   color: #b9974c;
   position: absolute;
@@ -96,7 +96,7 @@ body {
   top: 4px;
 }
 
-.lang-item {
+.lang {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
@@ -149,7 +149,7 @@ body {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 22px;
   font-weight: 700;
-   text-transform: uppercase;
+  text-transform: uppercase;
   color: #1a1a1a;
   display: flex;
   align-items: center;
